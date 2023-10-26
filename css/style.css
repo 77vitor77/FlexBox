@@ -1,0 +1,68 @@
+body{
+
+    margin: 0 25%;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid #fcf;
+    background-color: rgb(213, 183, 248);
+    margin: 0 0 30px 0;
+    
+}
+
+h1{
+
+    font-size: 64px;
+
+}
+
+h2{
+
+    font-weight: bold;
+
+}
+
+img{
+
+    width: 10vw;
+
+}
+
+.cards{
+
+    border: 1px solid #788eec;
+    width: 20vw;
+    line-height: 24px;
+    padding: 24px;
+
+}
+
+.Area-Restrita{
+
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+main{
+
+    display: flex;
+    margin: 0 0 30px 0;
+
+}
+
+footer{
+
+    text-align: center;
+    background-color: rgb(213, 183, 248);
+    padding: 30px 0;
+
+}
+
+
