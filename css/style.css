@@ -1,6 +1,19 @@
+:root{
+    /*PALHETAS DE CORES*/
+    --cor-primaria: rgb(223, 118, 255);
+    --cor-secundaria: #9900ff ;
+    --cor-terciaria: rgb(255, 255, 255);
+
+
+    /*FONTE E SUA CORES*/
+    --font-de-titulo:  24px;
+
+}
+
 body{
 
-    margin: 0 25%;
+    margin: 0 10%;
+    background-color: var(--cor-terciaria);
 
 }
 
@@ -10,20 +23,28 @@ header{
     justify-content: space-around;
     align-items: center;
     border: 5px solid #fcf;
-    background-color: rgb(213, 183, 248);
+    background-color:  var(--cor-primaria);
     margin: 0 0 30px 0;
     
 }
 
 h1{
 
-    font-size: 64px;
+    font-size: 4rem;
+    color: var(--cor-terciaria);
 
 }
 
 h2{
 
     font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+p{
+
+    font-size: 1rem;
 
 }
 
@@ -37,8 +58,8 @@ img{
 
     border: 1px solid #788eec;
     width: 20vw;
-    line-height: 24px;
-    padding: 24px;
+    line-height: 1.5rem;
+    padding: 1.5rem;
 
 }
 
@@ -46,13 +67,14 @@ img{
 
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 
 }
 
 main{
 
     display: flex;
+    justify-content: center;
     margin: 0 0 30px 0;
 
 }
